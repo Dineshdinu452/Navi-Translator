@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myfont;
+    src: url(/font/PAPYRUS\ \(1\).TTF);
+}
+body{
+    background-image: url(/image/avatar.png);
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: auto;
+}
+.header{
+
+     color:#2563EB;
+     font-family: myfont;
+     font-weight: bold;
+}
+
+#text{
+    
+    /* color: red; */
+    width: 30%;
+    margin-bottom:5%;
+    padding: 1rem;
+    display: inline-block;
+    min-height: 12vh;
+    font-family: myfont;
+    font-size: 1rem;
+}
+#btn{
+
+    color: red;
+    padding: 1rem 2rem;
+    background-color: #5ce4eb;
+    font-family: myfont;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.about{
+
+    color: wheat;
+    font-family: myfont;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top:3%;
+}
+
+#outputTxt{
+    height: 14vh;
+    background-color: white;
+    width: 33%;
+    margin-top: 2%;
+}
+.result{
+    color: wheat;
+    font-family: myfont;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top:3%;
+}
+
